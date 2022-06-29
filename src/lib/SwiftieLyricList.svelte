@@ -1,7 +1,7 @@
 <script context="module">
     export const Lyrics = [{
         song: "Song Name #1",
-        lyric: "This is lyric #1."
+        lyric: "This is lyric #1"
     },
     {
         song: "Song Name #2",

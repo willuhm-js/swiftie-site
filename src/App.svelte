@@ -5,7 +5,7 @@
 <main>
   <div class="text-center">
     <h1 class="display-1 mt-3 mb-4 fw-bold">swiftie</h1>
-    <p class="fst-italic">You can't spell awesome without me!</p>
+    <p class="fst-italic lead">You can't spell awesome without me!</p>
   </div>
   <div class="d-flex justify-content-center align-items-center">
     <div class="col-6">
