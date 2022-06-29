@@ -5,9 +5,13 @@
 
 <Header/>
 <main>
-  <h1>swiftie</h1>
-  <p>You can't spell awesome without me!</p>
-  <SwiftieLyric />
+  <div class="text-center">
+    <h1 class="display-1 mt-3 mb-4">swiftie</h1>
+    <p class="fst-italic">You can't spell awesome without me!</p>
+  </div>
+  <div class="position-absolute top-50 start-50 translate-middle text-center">
+    <SwiftieLyric />
+  </div>
 </main>
 
 <style>
