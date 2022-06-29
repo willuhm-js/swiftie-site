@@ -13,7 +13,7 @@
 </main>
 
 <style>
-   @font-face { font-family: TaylorSwift; src: url('TaylorSwift.ttf'); }
+   @font-face { font-family: TaylorSwift; src: url('/TaylorSwift.ttf'); }
    h1 {
         font-family: TaylorSwift;
         text-align: center;
