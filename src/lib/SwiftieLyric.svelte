@@ -1,10 +1,11 @@
 <script>
   import { Lyrics } from "./SwiftieLyricList.svelte";
   import Header from "./Header.svelte";
-  let SwiftieLyric = "Swiftie Lyric";
+  let SwiftieLyric;
   const randomSwiftieLyric = () => {
     SwiftieLyric = Lyrics[Math.floor(Math.random() * Lyrics.length)];
   }
+  randomSwiftieLyric();
 </script>
 
 <Header/>
