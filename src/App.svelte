@@ -1,10 +1,10 @@
 <script>
-  import SwiftieFact from './lib/SwiftieFact.svelte'
+  import SwiftieLyric from './lib/SwiftieLyric.svelte'
 </script>
 
 <main>
   <p>You can't spell awesome without me!</p>
-  <SwiftieFact />
+  <SwiftieLyric />
 </main>
 
 <style>
