@@ -1,9 +1,7 @@
 <script>
   import SwiftieLyric from './lib/SwiftieLyric.svelte'
-  import Header from './lib/Header.svelte';
 </script>
 
-<Header/>
 <main>
   <div class="text-center">
     <h1 class="display-1 mt-3 mb-4">swiftie</h1>
