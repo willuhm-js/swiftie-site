@@ -2,7 +2,6 @@
   import { Lyrics } from "./SwiftieLyricList.svelte";
   let SwiftieLyricObject;
   const randomSwiftieLyric = () => {
-    let potentialLyricObject = Lyrics[Math.floor(Math.random() * Lyrics.length)];
     SwiftieLyricObject = Lyrics[Math.floor(Math.random() * Lyrics.length)];
   }
   randomSwiftieLyric();
