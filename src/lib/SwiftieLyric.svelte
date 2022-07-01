@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { listen } from "svelte/internal";
 import { Songs } from "./SwiftieLyricList.svelte";
   let song, stanza, image;
   
