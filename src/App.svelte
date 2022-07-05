@@ -8,7 +8,7 @@
     <p class="fst-italic" style="font-size: 25px;">You can't spell awesome without me!</p>
   </div>
   <div class="d-flex justify-content-center align-items-center">
-    <div class="col-6">
+    <div class="col-9 col-lg-6">
       <SwiftieLyric />
     </div>
   </div>
