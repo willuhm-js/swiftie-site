@@ -8,7 +8,7 @@ import { Songs } from "./SwiftieLyricList.svelte";
     let SongObject = randomIndex(Songs)
     let stanzaArray = SongObject.lyrics.split("\n\n");
     stanza = randomIndex(stanzaArray).split("\n");
-    if (stanza.length < 3 || stanza.length > 5) return randomSwiftieLyric();
+    if (stanza.length < 3 || stanza.length > 4) return randomSwiftieLyric();
     song = SongObject.songTitle;
     image = SongObject.coverArt
   }
@@ -32,7 +32,7 @@ import { Songs } from "./SwiftieLyricList.svelte";
     </div>
   </div>
 </figure>
-<button on:click={randomSwiftieLyric}>Random Swiftie Lyric</button>
+<button id="test" on:click={randomSwiftieLyric}>Random Swiftie Lyric</button>
 
 <style>
   figure {
@@ -41,9 +41,5 @@ import { Songs } from "./SwiftieLyricList.svelte";
 
   .blockquote-footer {
     color: #b3b3b3;
-  }
-
-  figcaption {
-    margin-top: 5px;
   }
 </style>
