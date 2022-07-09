@@ -32,8 +32,6 @@ jobs:
         run: npm i
       - name: Build Project
         run: npm run build
-      - name: Prepare Project
-        run: touch build/.nojekyll
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
