@@ -12,7 +12,7 @@ import { Songs } from "./SwiftieLyricList.svelte";
     song = SongObject.songTitle;
     image = SongObject.coverArt
   }
-  randomSwiftieLyric();
+  window.onload = randomSwiftieLyric();
 </script>
 
 <figure class="p-4 w-100 rounded mb-2 d-flex align-items-center justify-content-around" >
