@@ -15,7 +15,7 @@
   </main>
   
   <style>
-     @font-face { font-family: TaylorSwift; src: url('/TaylorSwift.ttf'); }
+     @font-face { font-family: TaylorSwift; src: url('/swiftie-site/TaylorSwift.ttf'); }
      h1 {
           font-family: TaylorSwift;
           text-align: center;
