@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "immutable/start-6d786a65.js",
+    "file": "immutable/start-320a433c.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -33,7 +33,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "immutable/pages/index.svelte-c55cb5f6.js",
+    "file": "immutable/pages/index.svelte-e5f813cf.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -47,7 +47,7 @@
     ]
   },
   "src/routes/lib/SwiftieLyric.svelte": {
-    "file": "immutable/pages/lib/SwiftieLyric.svelte-596c6315.js",
+    "file": "immutable/pages/lib/SwiftieLyric.svelte-a1367473.js",
     "src": "src/routes/lib/SwiftieLyric.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
