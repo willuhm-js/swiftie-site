@@ -16,7 +16,7 @@
     </script>
     
     <figure class="p-4 w-100 rounded mb-2 d-flex align-items-center justify-content-around" >
-      <img src="{image}" alt="Album cover" width="200px" class="m-3 d-sm-none d-md-block"/>
+      <img src="{image}" alt="Album cover" width="200px" class="m-3 d-none d-md-block"/>
       <div>
         <blockquote class="mb-2 blockquote text-light d-flex align-items-center" style="min-height: 200px;">
           <p>
